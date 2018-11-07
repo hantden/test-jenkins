@@ -5,7 +5,7 @@ pipeline {
         stage('testStage') {
             steps {
                 echo 'It is alive..'
-app = docker.build("getintodevops/hellonode")
+                sh "docker build -v /var/run/docker.sock:/var/run/docker.sock -t test-image ."
 
             }
         }
