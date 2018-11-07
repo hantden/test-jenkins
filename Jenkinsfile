@@ -5,6 +5,7 @@ pipeline {
         stage('testStage') {
             steps {
                 echo 'It is alive..'
+                sh "Docker build ."
             }
         }
     }
