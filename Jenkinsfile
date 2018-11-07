@@ -6,5 +6,6 @@ pipeline {
             steps {
                 echo 'It is alive..'
             }
+        }
     }
 }
