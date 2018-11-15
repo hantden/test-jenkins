@@ -1,3 +1,3 @@
 FROM tomcat:8.0.21-jre8
 
-COPY ./software/ /usr/local/tomcat/webapps/
+COPY sample.war /usr/local/tomcat/webapps/
